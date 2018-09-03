@@ -1,9 +1,12 @@
-apply plugin: 'com.android.application'
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.2273055794'
 
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.mfc.myapp"
+//        applicationId "com.mfc.myapp"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
